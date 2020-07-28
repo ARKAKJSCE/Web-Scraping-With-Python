@@ -24,6 +24,3 @@ def Plot(csv):
 
     plt.savefig(results_dir + sample_file_name)
     plt.show()
-    # time.sleep(5)
-    # plt.close()
-    # shutil.move((str(current_directory)+"\\Quote.png"), (str(file_path)+"\\Quote.png"))
