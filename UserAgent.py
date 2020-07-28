@@ -39,8 +39,3 @@ def UserAgentFunction():
     headers = {'User-Agent': user_agent, 'Accept':'text/html, application/xhtml+xml, application/xml;q=0.9, image/webp, */*;q=0.8'}
     print("\nUser-Agent Sent : %s"%(user_agent))
     return headers
-
-    # 
-    # print(response.content)
-    # print("-------------------\n\n")
-
