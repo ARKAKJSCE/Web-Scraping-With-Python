@@ -8,7 +8,6 @@ from selenium import webdriver
 from plot import Plot
 from UserAgent import UserAgentFunction
 
-
 def Parse(URL, y):
     n = int(input("Please enter the number of entries you want : "))
     for x in range(n):
